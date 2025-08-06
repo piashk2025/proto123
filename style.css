@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MD. Piash Khondokar | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+    }
+
+    .hero {
+      background-image: url('images/piash\ bg.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .navbar {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(175, 174, 174, 0.8);
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .nav-menu {
+      list-style: none;
+    }
+
+    .nav-menu li {
+      margin: 10px 0;
+    }
+
+    .nav-menu a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero-content {
+      margin-left: auto;
+      margin-right: 50px;
+      text-align: right;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+    }
+
+    .hero p {
+      font-size: 24px;
+    }
+
+    section {
+      padding: 40px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 8px;
+    }
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .about-container img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .education ul, .hobbies ul {
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+
+    .hobby-images {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .hobby-images img {
+      width: 200px;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .skills .skill-bar {
+      margin-top: 20px;
+    }
+
+    .skills p {
+      margin: 10px 0 5px;
+    }
+
+    .bar {
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .fill {
+      background: #4caf50;
+      height: 20px;
+    }
+
+    .socials .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #333;
+      font-size: 32px;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="navbar">
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#hobbies">Hobby</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#socials">Contact</a></li>
+      </ul>
+    </div>
+    <div class="hero-content">
+      <h1>MD. Piash Khondokar</h1>
+      <p>Currently Studying at UAP</p>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="images/piash-pp.jpg" alt="Piash Profile">
+      <p>Hello! I'm Piash Khondokar, a student of UAP from Dhaka. I completed my SSC from BMARPC and HSC from DCC. I enjoy exploring new ideas and working on creative projects.</p>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>SSC:</strong> BMARPC</li>
+      <li><strong>HSC:</strong> DCC</li>
+      <li><strong>Current:</strong> Studying at UAP</li>
+    </ul>
+  </section>
+
+  <section id="hobbies" class="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Travelling</li>
+      <li>Listening to Music</li>
+      <li>Cooking</li>
+      <li>Reading Books</li>
+    </ul>
+    <div class="hobby-images">
+      <img src="https://source.unsplash.com/200x150/?travel" alt="Travel">
+      <img src="https://source.unsplash.com/200x150/?music" alt="Music">
+      <img src="https://source.unsplash.com/200x150/?cooking" alt="Cooking">
+      <img src="https://source.unsplash.com/200x150/?books" alt="Reading">
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="bar"><div class="fill" style="width: 75%"></div></div>
+
+      <p>CSS</p>
+      <div class="bar"><div class="fill" style="width: 70%"></div></div>
+
+      <p>JavaScript</p>
+      <div class="bar"><div class="fill" style="width: 60%"></div></div>
+
+      <p>Teamwork</p>
+      <div class="bar"><div class="fill" style="width: 80%"></div></div>
+    </div>
+  </section>
+
+  <section id="socials" class="socials">
+    <h2>Follow Me</h2>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/piash.khondokar.2025/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/piashkhondoker/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/qr/YECZL3TZLXNOM1" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+    </div>
+  </section>
+
+</body>
+</html>
